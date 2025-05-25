@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Train</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Welcome to JavaScript Train</h1>
+  <p>This is a sample index.html file for my project.</p>
+  <button id="clickMeBtn">Click Me!</button>
+  <script>
+    document.getElementById('clickMeBtn').addEventListener('click', function() {
+      // Dynamically load and run script.js when button is clicked
+      const script = document.createElement('script');
+      script.src = 'script.js';
+      document.body.appendChild(script);
+    });
+  </script>
+</body>
+</html>
