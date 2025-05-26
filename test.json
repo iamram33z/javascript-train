@@ -1,0 +1,11 @@
+{
+    "currentDocument": [
+        {
+            "actionType": "REJECT",
+            "actionTime": "2025-05-22T13:37:36.560Z",
+            "actionBy": "j.rodrigues",
+            "docState": "rejected",
+            "actionComment": "Please provide the full tax package for documents to be approved. (W8IMY, withholding statement, W8bene and CRS form.)"
+        }
+    ]
+}
